@@ -15,7 +15,7 @@ const Modal = ({open, setOpen, children})  => (
 );
 
 function App() {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(falsee)
   return (
     <div className="App">
       <button className="open-modal-btn" onClick={() => setOpen(true)}>✨ Открыть окно</button>
